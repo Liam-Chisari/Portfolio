@@ -1,0 +1,11 @@
+stock_id,description,ingredients,origin,is_organic
+1,Aged cheddar with a sharp, nutty flavor,Raw milk, pasture-raised cows, Wisconsin,1
+2,High-quality penne pasta for traditional dishes,Durum wheat semolina, Italy,0
+3,Rich, flavorful wedge of Parmesan,Cow's milk, Italy,1
+5,Classic pesto with fresh basil and pine nuts,Basil pine nuts Parmesan cheese garlic olive oil, Italy,0
+6,Premium extra-virgin olive oil,Cold-pressed olives, Greece,1
+10,Refreshing sparkling mineral water,Naturally carbonated spring water, France,0
+12,Fresh, creamy mozzarella,Pasteurized cow's milk, Italy,0
+15,Organic apple cider vinegar ,Raw, unfiltered apples, USA,1
+16,Premium dark chocolate with rich flavor,Cocoa beans, sugar, cocoa butter, Madagascar,0
+21,Wild-caught and sustainably sourced,Salmon, Pacific Ocean,0

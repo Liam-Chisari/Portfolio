@@ -1,0 +1,12 @@
+stock_id,name,manufacturer,cost_price,sale_price,number_in_stock,date_ordered,units_sold_year,units_sold_month,avg_units_per_customer,category,expiry_date
+1,Cheddar Cheese Block,Artisan Farms,8.50,12.99,25,2024-04-20,150,20,1.85,Cheese,2024-07-15
+2,Whole Wheat Penne,PastaMania,2.75,3.99,80,2024-04-10,380,35,2.30,Pasta,2025-01-12
+3,Parmesan Wedge,Fromagerie Italienne,10.99,16.50,18,2024-03-12,98,12,1.20,Cheese,2024-10-30 
+4,Salami Calabrese,The Charcuterie Co.,6.80,9.50,32,2024-04-18,140,18,2.05,Cured Meats,2024-09-21
+5,Basil Pesto Sauce,Mamma's Kitchen,5.00,7.49,50,2024-04-01,265,42,1.60,Pasta,2024-11-10
+6,Organic Olive Oil,Olea Groves,12.00,17.99,30,2024-02-28,85,8,2.50,Oils,2025-03-20
+7,Cherry Tomatoes (Pint),Green Acres Farms,3.25,4.99,45,2024-04-17,320,50,2.80,Produce,2024-04-27
+8,Prosciutto di Parma,Del Mondo Imports,14.75,21.00,12,2024-03-05,45,6,1.30,Cured Meats,2024-12-15
+9,Garlic Bread Loaf,Rustic Bakery,4.50,6.75,65,2024-04-12,290,38,1.95,Bread,2024-04-25
+10,Sparkling Mineral Water (1 Liter),Aqua Pura,1.50,2.49,120,2024-04-10,850,88,2.20,Beverages,2025-02-01
+11,Mixed Berry Yogurt,Creamy Delights,2.25,3.50,72,2024-04-19,310,48,1.75,Dairy,2024-05-05

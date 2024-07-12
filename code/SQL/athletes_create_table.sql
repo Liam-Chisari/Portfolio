@@ -1,0 +1,10 @@
+CREATE TABLE athletes (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    sport VARCHAR(50) NOT NULL,
+    age TINYINT UNSIGNED NOT NULL,
+    height DECIMAL(3, 2) NOT NULL,
+    weight DECIMAL(3, 1) NOT NULL,
+    country VARCHAR(50) NOT NULL,
+    gold_medals TINYINT UNSIGNED NOT NULL
+);

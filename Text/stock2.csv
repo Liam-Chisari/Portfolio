@@ -1,0 +1,21 @@
+stock_id,name,manufacturer,cost_price,sale_price,number_in_stock,date_ordered,units_sold_year,units_sold_month,avg_units_per_customer,category,expiry_date
+12,Mozzarella Cheese Ball,Belgioioso,4.15,6.25,40,2024-03-20,210,30,1.55,Cheese,2024-05-12
+13,Baguette,La Boulangerie,3.00,4.50,75,2024-04-14,340,45,1.80,Bread,2024-04-23
+14,Ground Coffee (Medium Roast),Mountain Brew,7.90,12.50,35,2024-04-05,190,24,2.10,Coffee,2025-01-30
+15,Apple Cider Vinegar,Eden Organics,4.75,6.99,42,2024-02-22,110,15,1.75,Oils,2025-06-19
+16,Chocolate Bars,Cocoa Delights,1.99,3.25,90,2024-04-15,425,52,2.40,Snacks,2024-12-28
+17,Granola Bars (Box),Nature's Valley,4.50,6.99,66,2024-03-28,280,37,2.00,Snacks,2025-01-15
+18,Red Seedless Grapes,Sunny Fields,4.25,6.49,38,2024-04-16,260,40,2.60,Produce,2024-04-26
+19,Tomato Sauce,Nona's Kitchen,3.75,5.99,55,2024-03-10,305,32,1.90,Pasta,2025-02-05
+20,Sea Salt Crackers,Simple Bites,3.25,4.75,82,2024-04-08,355,48,2.15,Snacks,2025-03-12
+21,Frozen Salmon Fillets,Wild Ocean,9.99,14.50,24,2024-02-15,90,12,2.30,Seafood,2024-09-23
+22,Chicken Breast (Boneless),Pasture Raised Co.,8.25,11.99,28,2024-04-10,165,25,1.70,Meat,2024-04-28
+23,Hummus (Original),Sabra,4.00,5.99,60,2024-04-19,240,35,1.65,Dips,2024-05-18
+24,Greek Yogurt (Plain),Olympus,3.50,4.99,52,2024-04-15,290,40,1.80,Dairy,2024-05-20 
+25,Bottled Iced Tea,Honest Tea,1.65,2.75,95,2024-04-02,400,60,2.60,Beverages,2024-10-25
+26,Oat Milk,Oatly,4.25,6.49,45,2024-03-08,225,28,1.95,Dairy,2024-12-01
+27,Brown Rice,Sun Harvest,3.50,5.49,72,2024-04-06,350,42,2.35,Grains,2025-03-30
+28,Lentils (Green),Earth's Choice,2.99,4.75,68,2024-03-14,275,35,2.05,Grains,2025-04-18
+29,Canned Tuna,Safe Catch,3.00,4.75,56,2024-04-11,235,33,1.85,Seafood,2026-02-10
+30,Mixed Nuts,Planters,7.50,11.49,30,2024-02-26,130,18,2.20,Snacks,2025-01-05
+31,Organic Bananas,Fair Trade Farms,2.49,3.99,48,2024-04-18,330,50,2.80,Produce,2024-04-25

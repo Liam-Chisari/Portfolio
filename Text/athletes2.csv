@@ -1,0 +1,21 @@
+id,name,sport,age,height,weight,country,gold_medals
+11,Aaron Kipchoge,Athletics,37,1.85,85.0,Kenya,4
+2,Allyson Felix,Athletics,37,1.69,63.0,United States,11
+13,Michael Phelps,Swimming,37,1.85,195.0,United States,28
+14,Usain Bolt,Athletics,36,1.98,100.0,Jamaica,8
+15,Sachin Tendulkar,Cricket,49,1.75,75.0,India,2
+16,Cristiano Ronaldo,Football,38,1.87,85.0,Portugal,5
+17,Serena Williams,Tennis,41,1.75,70.0,United States,23
+18,LeBron James,Basketball,38,2.03,250.0,United States,4
+19,Neeraj Chopra,Javelin Throw,25,1.88,87.0,India,1
+20,Simone Biles,Gymnastics,26,1.55,52.0,United States,7
+21,Kara Goucher,Athletics,44,1.70,125.0,United States,2
+22,Pele,Football,82,1.77,76.0,Brazil,3
+23,Larry Bird,Basketball,62,2.03,235.0,United States,3
+24,Yao Ming,Basketball,40,2.29,120.0,China,0
+25,Akhil Kumar,Wrestling,32,1.70,65.0,India,2
+26,"Katie Ledecky",Swimming,26,1.78,155.0,United States,7
+27,David Beckham,Football,47,1.89,90.0,England,0
+28,Sun Yang,Swimming,30,1.95,190.0,China,3
+29,Abhinav Bindra,Shooting,40,1.75,78.0,India,2
+30,Liu Xiang,Hurdling,41,1.80,76.0,China,2

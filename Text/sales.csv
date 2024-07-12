@@ -1,0 +1,8 @@
+sale_id,client_id,client_name,product_id,product_price,quantity,sale_amount,sale_date,sale_time,payment_method,salesperson_id,salesperson_name,commission_rate,notes
+1,101,Alexandra Jones,101,99.99,2,199.98,2023-07-28,12:35:01,Cash,101,Emma Johnson,5.00,Brisk sales
+2,102,James Rodriguez,102,49.99,3,149.97,2023-07-29,09:18:27,Card,102,Michael Smith,4.50,Promoted new product line
+3,103,Robert Miller,103,149.90,1,149.90,2023-07-30,15:59:03,Cash,103,Olivia Martinez,6.00,Excellent customer service
+4,104,Sophia Rodriguez,104,79.99,4,319.96,2023-07-31,10:11:12,Card,104,Isabella Anderson,4.00,Bulk sale
+5,105,William Davis,105,59.90,2,119.80,2023-08-01,13:45:38,Check,105,Liam Taylor,5.50,Customer referred by friend
+6,106,Daniel Brown,101,69.95,3,209.85,2023-08-02,16:22:47,Cash,101,Emma Johnson,5.00,In-store purchase
+7,107,Michael Collins,103,89.90,5,449.50,2023-08-03,08:37:15,Card,103,Olivia Martinez,6.00,Best-selling product today

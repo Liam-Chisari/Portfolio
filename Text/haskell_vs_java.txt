@@ -1,0 +1,70 @@
+Core Concepts
+Feature	Haskell	Java
+Paradigm	Functional (declarative)	Object-Oriented (imperative)
+Immutability	Values are immutable by default, promoting safety and predictability.	Variables can be mutable or immutable, requiring explicit declaration (final) for immutability.
+Functions	First-class citizens, treated as data, easily composed and passed around.	Methods are associated with objects and classes.
+Data Structures	Lists are fundamental, often used for data manipulation and processing.	Arrays, Lists, Sets, Maps are common for data storage and manipulation.
+Error Handling	Algebraic data types like Maybe and Either for representing possible errors or values.	Exceptions are thrown and caught to handle errors.
+I/O	Uses IO monad to encapsulate side effects like file I/O and user input.	Stream-based I/O (BufferedReader, BufferedWriter) or higher-level file APIs (Files, Paths) are used.
+
+Code Comparison
+
+Let's look at snippets for specific tasks:
+
+1. File Reading
+
+handle <- openFile filename ReadMode
+contents <- hGetContents handle
+
+BufferedReader reader = new BufferedReader(new FileReader(filename));
+String contents = reader.lines().collect(Collectors.joining("\n"));
+reader.close();
+
+    Haskell:  Uses a file handle and hGetContents for lazy I/O.
+    Java: Opens a BufferedReader and reads lines using streams, collecting them into a single string.
+
+2. Word Splitting
+
+allWords = words contents
+
+String[] allWords = contents.split("\\s+");
+
+    Haskell: words function directly splits the string into a list of words based on whitespace.
+    Java: split method splits the string using a regular expression for whitespace.
+
+3. Finding Longest Word and Longest 10
+
+longestWord = maximumBy (compare `on` length) allWords
+longest10 = take 10 (sortBy (flip compare `on` length) allWords)
+
+String longestWord = Arrays.stream(allWords)
+                            .max(Comparator.comparingInt(String::length))
+                            .orElse("");
+
+List<String> longest10 = Arrays.stream(allWords)
+                                .sorted(Comparator.comparingInt(String::length).reversed())
+                                .limit(10)
+                                .collect(Collectors.toList());
+
+    Haskell:  Leverages higher-order functions maximumBy and sortBy with lambda expressions.
+    Java: Uses streams with max, sorted, limit, and collect for a similar effect.
+
+4. CSV Writing
+
+writeFile "longest.csv" (unlines longest10)
+
+FileWriter writer = new FileWriter("longest.csv");
+for (String word : longest10) {
+    writer.write(word + "\n");
+}
+writer.close();
+
+    Haskell: Concisely writes lines using unlines.
+    Java: Requires manual iteration to write each word with a newline.
+
+Additional Considerations
+
+    Typing: Haskell's strong static typing can catch errors at compile time, while Java's type system is less strict.
+    Error Handling: Haskell uses Maybe for optional values and Either to represent potential errors. Java uses exceptions.
+
+Let me know if you'd like a more detailed comparison on any specific aspect!

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    #vis.vega-embed {
+      width: 100%;
+      display: flex;
+    }
+
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+      position: relative;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@5.17.0"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 300, "continuousHeight": 300}}, "data": {"name": "data-faebc9f457389205b4a511efab6ada73"}, "mark": {"type": "circle", "size": 60}, "encoding": {"color": {"field": "origin", "type": "nominal"}, "tooltip": [{"field": "horsepower", "type": "quantitative"}, {"field": "weight", "type": "quantitative"}, {"field": "origin", "type": "nominal"}], "x": {"axis": {"title": "Horsepower"}, "field": "horsepower", "type": "quantitative"}, "y": {"axis": {"title": "Weight"}, "field": "weight", "type": "quantitative"}}, "params": [{"name": "param_1", "select": {"type": "interval", "encodings": ["x", "y"]}, "bind": "scales"}], "title": "Horsepower vs. Weight by Origin", "$schema": "https://vega.github.io/schema/vega-lite/v5.17.0.json", "datasets": {"data-faebc9f457389205b4a511efab6ada73": [{"name": "Corolla", "mpg": 30, "cylinders": 4, "displacement": 1.8, "horsepower": 130, "weight": 2600, "acceleration": 10.2, "model_year": 1984, "origin": "Japan"}, {"name": "Camry", "mpg": 28, "cylinders": 6, "displacement": 2.2, "horsepower": 115, "weight": 3000, "acceleration": 10.4, "model_year": 1985, "origin": "Japan"}, {"name": "Accord", "mpg": 27, "cylinders": 4, "displacement": 2.0, "horsepower": 110, "weight": 2800, "acceleration": 10.6, "model_year": 1986, "origin": "Japan"}, {"name": "Altima", "mpg": 26, "cylinders": 6, "displacement": 2.4, "horsepower": 150, "weight": 3200, "acceleration": 10.8, "model_year": 1987, "origin": "Japan"}, {"name": "Sebring", "mpg": 25, "cylinders": 6, "displacement": 2.5, "horsepower": 115, "weight": 3000, "acceleration": 11.0, "model_year": 1988, "origin": "USA"}, {"name": "Grand Am", "mpg": 24, "cylinders": 6, "displacement": 3.0, "horsepower": 150, "weight": 3400, "acceleration": 11.2, "model_year": 1989, "origin": "USA"}, {"name": "Cavalier", "mpg": 23, "cylinders": 4, "displacement": 2.2, "horsepower": 110, "weight": 2800, "acceleration": 11.4, "model_year": 1990, "origin": "USA"}, {"name": "Mustang", "mpg": 22, "cylinders": 8, "displacement": 4.9, "horsepower": 225, "weight": 4000, "acceleration": 11.6, "model_year": 1991, "origin": "USA"}, {"name": "Camaro", "mpg": 21, "cylinders": 8, "displacement": 5.7, "horsepower": 275, "weight": 4000, "acceleration": 11.8, "model_year": 1992, "origin": "USA"}, {"name": "Challenger", "mpg": 20, "cylinders": 8, "displacement": 5.9, "horsepower": 300, "weight": 4000, "acceleration": 12.0, "model_year": 1993, "origin": "USA"}, {"name": "Viper", "mpg": 19, "cylinders": 8, "displacement": 8.0, "horsepower": 400, "weight": 4000, "acceleration": 12.2, "model_year": 1994, "origin": "USA"}, {"name": "Corvette", "mpg": 18, "cylinders": 8, "displacement": 5.7, "horsepower": 350, "weight": 4000, "acceleration": 12.4, "model_year": 1995, "origin": "USA"}, {"name": "F-150", "mpg": 17, "cylinders": 8, "displacement": 4.6, "horsepower": 235, "weight": 4000, "acceleration": 12.6, "model_year": 1996, "origin": "USA"}, {"name": "Silverado", "mpg": 16, "cylinders": 8, "displacement": 5.7, "horsepower": 275, "weight": 4000, "acceleration": 12.8, "model_year": 1997, "origin": "USA"}, {"name": "Tahoe", "mpg": 15, "cylinders": 8, "displacement": 5.7, "horsepower": 275, "weight": 4000, "acceleration": 13.0, "model_year": 1998, "origin": "USA"}, {"name": "Bronco", "mpg": 14, "cylinders": 8, "displacement": 5.0, "horsepower": 225, "weight": 4000, "acceleration": 13.2, "model_year": 1999, "origin": "USA"}, {"name": "Grand Cherokee", "mpg": 13, "cylinders": 8, "displacement": 5.2, "horsepower": 250, "weight": 4000, "acceleration": 13.4, "model_year": 2000, "origin": "USA"}, {"name": "Suburban", "mpg": 12, "cylinders": 8, "displacement": 6.0, "horsepower": 300, "weight": 4000, "acceleration": 13.6, "model_year": 2001, "origin": "USA"}, {"name": "Excursion", "mpg": 11, "cylinders": 8, "displacement": 7.3, "horsepower": 375, "weight": 4000, "acceleration": 13.8, "model_year": 2002, "origin": "USA"}, {"name": "Yukon", "mpg": 10, "cylinders": 8, "displacement": 5.3, "horsepower": 295, "weight": 4000, "acceleration": 14.0, "model_year": 2003, "origin": "USA"}, {"name": "Tahoe Hybrid", "mpg": 9, "cylinders": 6, "displacement": 3.0, "horsepower": 330, "weight": 5000, "acceleration": 14.2, "model_year": 2004, "origin": "USA"}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>

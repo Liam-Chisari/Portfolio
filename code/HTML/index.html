@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+    <head>
+        <title> Hamburger Test </title>
+    <script> 
+        function setHamburger() {
+            const hamburgerBtn = document.getElementById('hamburger-btn');
+            const sideMenu = document.getElementById('side-menu');
+
+            hamburgerBtn.addEventListener('click', () => {
+              sideMenu.classList.toggle('open');
+            });
+        }
+    </script>
+    <style> 
+    #side-menu {
+      position: fixed;
+      left: -100%; /* Initially hidden */
+      top: 0;
+      height: 100%;
+      transition: left 0.3s ease-in-out; /* Smooth transition */
+    }
+
+    #side-menu.open {
+      left: 0; /* Visible when open */
+    }
+    </style>
+    </head>
+    <body onload="setHamburger()">
+        <button id="hamburger-btn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav id="side-menu">
+            Side menu
+        </nav>
+        Some text
+    </body>
+</html>

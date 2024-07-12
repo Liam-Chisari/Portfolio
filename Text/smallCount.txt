@@ -1,0 +1,16 @@
+text 2
+red 2
+this 1
+is 1
+small 1
+amount 1
+of 1
+i 1
+once 1
+went 1
+to 1
+house 1
+saw 1
+blue 1
+dog 1
+cat 1

@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.landing-page, .shop-page, .contact-page {
+  padding: 20px;
+  text-align: center;
+}
+
+.landing-page h1, .shop-page h2, .contact-page h2 {
+  color: #333;
+}
+
+.landing-page p, .shop-page p, .contact-page p {
+  color: #666;
+}
+
+.item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+}
+
+.item h3, .item p {
+  color: #333;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

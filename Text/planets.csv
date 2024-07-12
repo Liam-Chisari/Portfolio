@@ -1,0 +1,9 @@
+name,diameter_km,mass_kg,gravity_ms2,orbital_period_days,rotation_period_hours,moons,ring_system,discovery_year,discovery_method,atmosphere_composition,mean_temperature_celsius,distance_from_sun_au,planet_type
+1,Mercury,4879,3.3011E23,3.70,87.97,1407.6,0,0,-1,Visual Observation,Trace gases,167,0.39,Terrestrial
+2,Venus,12104,4.8675E24,8.87,224.70,-5832.5,0,0,-1,Visual Observation,Carbon dioxide Nitrogen,462,0.72,Terrestrial
+3,Earth,12756,5.9724E24,9.80,365.26,23.93,1,0,-1,Visual Observation,Nitrogen Oxygen,15,1.00,Terrestrial
+4,Mars,6779,6.4171E23,3.71,686.98,24.62,2,0,-1,Visual Observation,Carbon dioxide Nitrogen Argon,-65,1.52,Terrestrial
+5,Jupiter,142984,1.8982E27,24.79,4332.59,9.93,79,1,1610,Telescope,Hydrogen Helium,-110,5.2,Gas Giant
+6,Saturn,116464,5.6834E26,10.44,10759.22,10.66,82,1,1610,Telescope,Hydrogen Helium,-140,9.5,Gas Giant
+7,Uranus,50724,8.6810E25,8.87,30688.50,17.24,27,1,1781,Telescope,Hydrogen Helium Methane,-195,19.19,Ice Giant
+8,Neptune,49244,1.0241E26,11.15,60182.00,16.11,14,1,1846,Telescope,Hydrogen Helium Methane,-200,30.07,Ice Giant

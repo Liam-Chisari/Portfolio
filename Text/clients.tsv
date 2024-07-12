@@ -1,0 +1,11 @@
+client_id	first_name	last_name	email	phone	company	address	state	postal_code	total_orders	monthly_orders	most_ordered_category
+1	Emily	Davis	emily.davis@email.com	555-123-4567		123 Main St	CA	90210	5	2	Electronics
+2	Daniel	Johnson	daniel.johnson@company.com	555-987-6543	Acme Corp	456 Elm St	NY	10001	12	0	Books
+3	Sophia	Brown	sophia.brown@gmail.com	555-555-5555		789 Oak St	TX	75201	3	1	Clothing
+4	Matthew	Wilson	matthew.wilson@email.com	555-246-8013		101 Pine St	FL	33101	8	3	Home Goods
+5	Olivia	Taylor	olivia.taylor@company.com	555-369-2581	XYZ Inc	202 Cedar St	IL	60601	20	5	Electronics
+6	Ethan	Anderson	ethan.anderson@gmail.com	555-741-8529		303 Maple St	WA	98101	1	0	Sports
+7	Ava	Thomas	ava.thomas@email.com	555-867-5309		404 Birch St	CA	94101	15	4	Beauty
+8	William	Jackson	william.jackson@company.com	555-159-3570	Global Co	505 Walnut St	NY	10002	7	1	Books
+9	Isabella	White	isabella.white@gmail.com	555-951-4562		606 Spruce St	TX	77001	9	2	Clothing
+10	James	Harris	james.harris@email.com	555-321-6540		707 Willow St	FL	32801	4	0	Home Goods

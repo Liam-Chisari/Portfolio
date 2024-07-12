@@ -1,0 +1,11 @@
+reorder_id,stock_id,reorder_quantity,reorder_date,notes
+1,1,50,2024-04-23,"Restock after weekend sale"
+2,5,35,2024-04-22,""
+3,12,45,2024-04-25,"Customer pre-order"
+4,18,50,2024-04-24,""
+5,2,100,2024-04-22,"Bulk reorder"
+6,21,30,2024-04-20,""
+7,4,40,2024-04-20,"Regular restock"
+8,16,75,2024-04-24,"Increased demand"
+9,7,60,2024-04-25,""
+10,29,65,2024-04-23,"Replenish before May"

@@ -1,0 +1,17 @@
+book_id,title,author_first_name,author_last_name,isbn_13,isbn_10,publication_year,edition,language,format,pages,category,description,average_rating
+1,Pride and Prejudice,Jane,Austen,9780140435225,,1813,,English,Paperback,224,Romance,A witty comedy of manners by Jane Austen that follows the Bennet sisters as they search for love and happiness in their social circle.,4.2
+2,The Lord of the Rings: The Fellowship of the Ring,J.R.R.,Tolkien,9780261102354,0261102354,1954,1st Edition,English,Hardcover,482,Fantasy,An epic high-fantasy tale that follows a hobbit named Frodo on a quest to destroy the One Ring and defeat the Dark Lord Sauron.,4.5
+3,To Kill a Mockingbird,Harper,Lee,9780446310727,,1960,,English,Paperback,324,Fiction,A coming-of-age story that explores themes of racial prejudice in the Deep South of the United States.,4.3
+4,The Hitchhiker's Guide to the Galaxy,Douglas,Adams,9780345391803,0345391802,1979,,English,Paperback,184,Science Fiction,A comedic science fiction adventure following Arthur Dent as he escapes Earth's destruction with his friend Ford Prefect, who turns out to be an alien researcher for the titular Hitchhiker's Guide to the Galaxy.,4.1
+5,Dune,Frank,Herbert,9780441014041,0441014041,1965,,English,Paperback,800,Science Fiction,A complex and thought-provoking science fiction novel set on the desert planet Arrakis, where a valuable spice is harvested.,4.4
+6,The Catcher in the Rye,J.D.,Salinger,9780312003491,,1951,,English,Paperback,222,Coming-of-Age,A classic coming-of-age story that follows Holden Caulfield, a cynical teenager who is expelled from boarding school.,4.0
+7,Invisible Man,Ralph,Ellison,9780393310710,,1952,,English,Paperback,581,Fiction,A powerful novel about the experiences of an unnamed Black man navigating racism and identity in America.,4.2
+8,One Hundred Years of Solitude,Gabriel,Garcia Marquez,9780307472736,,1967,,Spanish,Paperback,487,Magical Realism,A magical realist novel that follows the rise and fall of the Buendía family and the town of Macondo.,4.3
+9,The Great Gatsby,F. Scott,Fitzgerald,9780743273565,,1925,,English,Hardcover,180,Fiction,A cautionary tale about the American Dream and the Jazz Age, set in Long Island, New York.,4.0
+10,The Book Thief,Markus,Zusak,9780375838907,,2005,,English,Hardcover,528,Historical Fiction,Narrated by Death, the story follows a young girl named Liesel Meminger who steals books and learns to read in Nazi Germany.,4.2
+11,Frankenstein,Mary,Shelley,9781847491616,,1818,,English,Paperback,211,Gothic Fiction,A gothic novel about a scientist named Victor Frankenstein who creates a monstrous creature in his laboratory.,3.8
+12,The God of Small Things,Arundhati,Roy,9780224037939,,1997,,English,Paperback,320,Fiction,A story set in Kerala, India, that explores themes of love, loss, and family secrets.,4.1
+13,The Handmaid's Tale,Margaret,Atwood,9780345359943,,1985,,English,Paperback,344,Dystopian Fiction,A dystopian novel set in a future America where
+14, A Confederacy of Dunces,John Kennedy Toole,,9780140044974,,1980,Pulitzer Prize Edition,English,Paperback,323,Fiction,A satirical novel following Ignatius J. Reilly, a lazy and eccentric man living in New Orleans.,
+15, 1984,George,Orwell,,9780451524935,,1949,,English,Paperback,328,Dystopian Fiction,A chilling portrayal of a totalitarian state where the government controls every aspect of people's lives.,
+16,Things Fall Apart,Chinua,Achebe,,9780435900557,,1958,,English,Paperback,209,Fiction,A historical novel set in pre-colonial Nigeria that explores the clash of cultures and traditions.,

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    #vis.vega-embed {
+      width: 100%;
+      display: flex;
+    }
+
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+      position: relative;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@5.17.0"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 300, "continuousHeight": 300}}, "data": {"name": "data-78b8656d0ffd94050623661060208232"}, "mark": {"type": "line", "point": true}, "encoding": {"tooltip": [{"field": "country", "type": "nominal"}, {"field": "mobile_users_per_100", "type": "quantitative"}], "x": {"axis": {"labelAngle": -45}, "field": "country", "type": "nominal"}, "y": {"field": "mobile_users_per_100", "title": "Mobile Users per 100 People (in millions)", "type": "quantitative"}}, "params": [{"name": "param_1", "select": {"type": "interval", "encodings": ["x", "y"]}, "bind": "scales"}], "title": "Mobile Users per 100 People by Country", "$schema": "https://vega.github.io/schema/vega-lite/v5.17.0.json", "datasets": {"data-78b8656d0ffd94050623661060208232": [{"country": "Thailand", "country_code": "TH", "year": 2023, "mobile_users": 40, "internet_users_per_100_people": 1, "total_internet_users": 50, "fixed_broadband_users": 40, "mobile_users_per_100": 0.004}, {"country": "Argentina", "country_code": "AR", "year": 2023, "mobile_users": 60, "internet_users_per_100_people": 2, "total_internet_users": 75, "fixed_broadband_users": 60, "mobile_users_per_100": 0.003}, {"country": "Netherlands", "country_code": "NL", "year": 2023, "mobile_users": 50, "internet_users_per_100_people": 2, "total_internet_users": 75, "fixed_broadband_users": 50, "mobile_users_per_100": 0.0025}, {"country": "Poland", "country_code": "PL", "year": 2023, "mobile_users": 75, "internet_users_per_100_people": 3, "total_internet_users": 100, "fixed_broadband_users": 75, "mobile_users_per_100": 0.0025}, {"country": "Turkey", "country_code": "TR", "year": 2023, "mobile_users": 80, "internet_users_per_100_people": 4, "total_internet_users": 100, "fixed_broadband_users": 80, "mobile_users_per_100": 0.002}, {"country": "Australia", "country_code": "AU", "year": 2023, "mobile_users": 100, "internet_users_per_100_people": 5, "total_internet_users": 150, "fixed_broadband_users": 100, "mobile_users_per_100": 0.002}, {"country": "China", "country_code": "CN", "year": 2023, "mobile_users": 1200, "internet_users_per_100_people": 70, "total_internet_users": 1300, "fixed_broadband_users": 900, "mobile_users_per_100": 0.0017142857142857142}, {"country": "Brazil", "country_code": "BR", "year": 2023, "mobile_users": 800, "internet_users_per_100_people": 50, "total_internet_users": 900, "fixed_broadband_users": 700, "mobile_users_per_100": 0.0016}, {"country": "India", "country_code": "IN", "year": 2023, "mobile_users": 900, "internet_users_per_100_people": 60, "total_internet_users": 1000, "fixed_broadband_users": 750, "mobile_users_per_100": 0.0015}, {"country": "Russia", "country_code": "RU", "year": 2023, "mobile_users": 600, "internet_users_per_100_people": 40, "total_internet_users": 700, "fixed_broadband_users": 500, "mobile_users_per_100": 0.0015}, {"country": "South Korea", "country_code": "KR", "year": 2023, "mobile_users": 150, "internet_users_per_100_people": 10, "total_internet_users": 200, "fixed_broadband_users": 150, "mobile_users_per_100": 0.0015}, {"country": "Indonesia", "country_code": "ID", "year": 2023, "mobile_users": 500, "internet_users_per_100_people": 35, "total_internet_users": 600, "fixed_broadband_users": 450, "mobile_users_per_100": 0.0014285714285714286}, {"country": "Spain", "country_code": "ES", "year": 2023, "mobile_users": 200, "internet_users_per_100_people": 15, "total_internet_users": 300, "fixed_broadband_users": 200, "mobile_users_per_100": 0.0013333333333333335}, {"country": "Mexico", "country_code": "MX", "year": 2023, "mobile_users": 400, "internet_users_per_100_people": 30, "total_internet_users": 500, "fixed_broadband_users": 350, "mobile_users_per_100": 0.0013333333333333335}, {"country": "Italy", "country_code": "IT", "year": 2023, "mobile_users": 250, "internet_users_per_100_people": 20, "total_internet_users": 350, "fixed_broadband_users": 225, "mobile_users_per_100": 0.00125}, {"country": "Canada", "country_code": "CA", "year": 2023, "mobile_users": 300, "internet_users_per_100_people": 25, "total_internet_users": 400, "fixed_broadband_users": 300, "mobile_users_per_100": 0.0012}, {"country": "Japan", "country_code": "JP", "year": 2023, "mobile_users": 300, "internet_users_per_100_people": 80, "total_internet_users": 400, "fixed_broadband_users": 250, "mobile_users_per_100": 0.000375}, {"country": "United States", "country_code": "US", "year": 2023, "mobile_users": 250, "internet_users_per_100_people": 95, "total_internet_users": 300, "fixed_broadband_users": 150, "mobile_users_per_100": 0.00026315789473684215}, {"country": "Germany", "country_code": "DE", "year": 2023, "mobile_users": 200, "internet_users_per_100_people": 90, "total_internet_users": 300, "fixed_broadband_users": 150, "mobile_users_per_100": 0.00022222222222222223}, {"country": "United Kingdom", "country_code": "UK", "year": 2023, "mobile_users": 150, "internet_users_per_100_people": 85, "total_internet_users": 200, "fixed_broadband_users": 125, "mobile_users_per_100": 0.00017647058823529413}, {"country": "France", "country_code": "FR", "year": 2023, "mobile_users": 100, "internet_users_per_100_people": 75, "total_internet_users": 150, "fixed_broadband_users": 100, "mobile_users_per_100": 0.0001333333333333333}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>

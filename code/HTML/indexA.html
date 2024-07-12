@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI User Input to YAML, JSON, and XML</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    
+    .container {
+      width: 80%;
+      max-width: 600px;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      background-color: #f0f0f0;
+    }
+    
+    h1 {
+      text-align: center;
+    }
+    
+    #input-section {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 20px;
+    }
+    
+    label {
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+    
+    input {
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    
+    button {
+      width: 100%;
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #4CAF50;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.2s ease;
+    }
+    
+    button:hover {
+      background-color: #3e8e41;
+    }
+    
+    #output-section {
+      margin-top: 20px;
+      padding: 10px;
+      font-size: 14px;
+      background-color: #f0f0f0;
+      border-radius: 5px;
+    }
+    
+    @media screen and (max-width: 600px) {
+      .container {
+        width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>AI User Input to YAML, JSON, and XML</h1>
+    <div id="input-section">
+      <label for="name">Name:</label>
+      <input type="text" id="name" placeholder="Enter your name">
+
+      <label for="dateOfBirth">Date of Birth:</label>
+      <input type="date" id="dateOfBirth" placeholder="Enter your date of birth">
+
+      <label for="city">City:</label>
+      <input type="text" id="city" placeholder="Enter your city">
+
+      <label for="profession">Profession:</label>
+      <input type="text" id="profession" placeholder="Enter your profession">
+
+      <button onclick="convertToYAML()">Convert to YAML, JSON, and XML</button>
+    </div>
+    <div id="output-section"></div>
+  </div>
+
+  <script>
+    function convertToYAML() {
+      const name = document.getElementById("name").value;
+      const dateOfBirth = document.getElementById("dateOfBirth").value;
+      const city = document.getElementById("city").value;
+      const profession = document.getElementById("profession").value;
+
+      const yamlData = `
+Name: ${name}
+Date of Birth: ${dateOfBirth}
+City: ${city}
+Profession: ${profession}
+`;
+
+      const jsonData = {
+        "Name": name,
+        "Date of Birth": dateOfBirth,
+        "City": city,
+        "Profession": profession
+      };
+
+      const xmlData = `
+<data>
+  <name>${name}</name>
+  <dateOfBirth>${dateOfBirth}</dateOfBirth>
+  <city>${city}</city>
+  <profession>${profession}</profession>
+</data>
+`;
+
+      document.getElementById("output-section").innerHTML = `
+<h2>YAML Output:</h2>
+<pre>
+${yamlData}
+</pre>
+<h2>JSON Output:</h2>
+<pre>
+${JSON.stringify(jsonData, null, 2)}
+</pre>
+<h2>XML Output:</h2>
+<pre>
+${xmlData}
+</pre>
+`;
+    }
+  </script>
+</body>
+</html>

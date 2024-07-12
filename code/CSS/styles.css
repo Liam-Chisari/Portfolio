@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+  background-color: #f0f0f0; /* added light-colored background */
+}
+
+header, h1, h2 {
+  color: #333;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+hr {
+  width: 80%;
+  border-color: #ddd; /* added border color */
+}
+
+a.btn {
+  background-color: #007bff; /* updated button color */
+  color: #fff;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  border: 2px solid #0056b3; /* added border */
+}
+
+a.btn:hover {
+  background-color: #0056b3;  /* updated button color on hover */
+}
+
+form {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+input[type="submit"] {
+  margin: 10px;
+  padding: 5px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  width: 90%; /* added width */
+}
+
+textarea {
+  height: 100px;
+}
+
+.footer {
+  background-color: #007bff; /* added colored footer */
+  color: #fff;
+  font-size: 0.8rem;
+  margin-top: 20px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.footer a {
+  margin: 5px;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Added styles for hover effect on footer links */
+.footer a:hover {
+  text-decoration: underline;
+}
